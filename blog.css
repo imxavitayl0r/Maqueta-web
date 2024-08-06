@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b43ff;
+}
+
+header {
+    background: #333;
+    color: #ffdc55;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ff000a;
+    text-decoration: none;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    font-size: 1.5em;
+}
+
+.producto p {
+    font-size: 0.9em;
+}
+
+.producto span {
+    font-weight: bold;
+    color: #28a745; /* Color verde para el precio */
+}
+
+button {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
